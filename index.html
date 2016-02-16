@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dinner planner</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/lab1_stylesheet.css">
+
+  </head>
+  <body id="pageBody">
+    <div class="jumbotron container-fluid" id="pageHeader">
+      <h1 id="homeletteHeading" >HOMELETTE</h1>
+      <p id="homeletteSlogan">From the best chefs in the world directly to your kitchen</p>
+    </div>
+	<div class="mainContainer">
+
+    <div id="fullscreen"></div>
+
+    <div class="row" id="splitscreen">
+      <div class="col-md-3" id="leftContainer"></div>
+      <div class="col-md-9" id="rightContainer"></div>
+    </div>
+  </div>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <!-- Bootstrap JavaScript, needed if you want for instance tabs, models, popovers etc. -->
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+
+	<!-- The application JavaScript code -->
+	<script src="js/app.js"></script>
+	<script src="js/model/dinnerModel.js"></script>
+	<script src="js/view/exampleView.js"></script>
+  <script src="js/view/homeView.js"></script>
+  <script src="js/view/dinnerOverviewView.js"></script>
+  <script src="js/view/selectDishView.js"></script>
+  <script src="js/view/dishDetails.js"></script>
+  <script src="js/view/dinnerSummaryView.js"></script>
+  <script src="js/view/dinnerInstructionsView.js"></script>
+  </body>
+</html>
